@@ -1,5 +1,7 @@
 # Portfolio - Cristian Cepeda
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/standard/standard)
+
 ## Background
 I'm a Senior at Florida International University and projected to graduate this
 upcoming Fall 2018. Spring Semester just ended and I have decided to take on
