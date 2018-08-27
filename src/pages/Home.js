@@ -1,29 +1,45 @@
 import React, {Component} from 'react'
 
 const pageCSS = {
-  display: 'grid',
-  gridTemplateColumns: 'auto auto auto',
-  gridTemplateRows: '20%  auto 20%',
-  padding: '0px',
-  height: '80vh',
-  backgroundColor: '#6497a5'
+  backgroundColor: '#D5DBDB',
+  height: '80vh'
+}
+const welcomeMessagePosition = {
+  padding: '3% 3%'
 }
 const welcomeMessage = {
-  gridColumnStart: '2',
-  gridColumnEnd: '3',
-  gridRowStart: '2',
-  gridRowEnd: '3',
-  textAlign: 'center',
-  margin: 'auto'
+  margin: '0px',
+  fontSize: '45px'
 }
+
 class Home extends Component {
   render () {
     return (
       <div className='container-fluid' style={pageCSS}>
-        <h5 style={welcomeMessage}>Full Stack Developer</h5>
+        <div style={welcomeMessagePosition}>
+          <div>
+            <p style={welcomeMessage}>Full Stack Developer <span>👨🏽‍💻</span> from</p>
+          </div>
+          <div>
+            <p style={welcomeMessage}><span>☀️</span>South Florida<span>🌴</span></p>
+          </div>
+          <div>
+            <p>Technology Hacker.</p>
+          </div>
+        </div>
+        <div className='row'>
+          <p>Hi</p>
+        </div>
       </div>
     )
   }
 }
 
 export default Home
+
+/*
+-----
+🌴
+palm tree
+Unicode: U+1F334, UTF-8: F0 9F 8C B4
+*/

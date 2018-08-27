@@ -7,7 +7,10 @@ import Skills from '../pages/Skills'
 
 /* App Styles */
 const webPageStyles = {
-  fontFamily: 'Roboto, sans-serif'
+  fontFamily: 'Comfortaa, cursive',
+  backgroundColor: '#F7F9F9',
+  margin: '0px',
+  padding: '0px'
 }
 class App extends Component {
   render () {
